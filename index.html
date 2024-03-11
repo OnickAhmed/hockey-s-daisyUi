@@ -29,6 +29,7 @@
               "primary-color": "#FF4240",
               "color-gray": "#13131833",
               "font-gray": "#13131880",
+              "font-secondary": "#FFFFFFAA",
             },
           },
         },
@@ -321,7 +322,7 @@
         </div>
       </section>
       <!-- New Products -->
-      <section class="lg:mx-32 my-24">
+      <section class="mx-5 lg:mx-32 my-24">
         <div
           class="border-y-2 border-dashed border-color-gray py-8 text-center"
         >
@@ -533,7 +534,7 @@
         </div>
       </section>
       <!-- Questions -->
-      <section class="lg:mx-32 my-24">
+      <section class="mx-5 lg:mx-32 my-24">
         <div
           class="border-y-2 border-dashed border-color-gray py-8 text-center"
         >
@@ -646,7 +647,7 @@
         </div>
       </section>
       <!-- Get In Touch -->
-      <section class="lg:mx-32 my-24">
+      <section class="mx-5 lg:mx-32 my-24">
         <div
           class="border-y-2 border-dashed border-color-gray py-8 text-center mb-12"
         >
@@ -679,27 +680,118 @@
             </div>
           </div>
           <div class="w-full">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-7">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 mx-5 lg:mx-0">
               <div class="w-full">
                 <h3 class="text-xl font-bold mb-4">Your Name</h3>
-                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full text-font-color" />
+                <input
+                  type="text"
+                  placeholder="Enter your full name"
+                  class="input input-bordered w-full text-font-color"
+                />
               </div>
               <div class="w-full">
-                <h3 class="text-xl font-bold mb-4">Your Name</h3>
-                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full text-font-color" />
+                <h3 class="text-xl font-bold mb-4">Your Email</h3>
+                <input
+                  type="text"
+                  placeholder="Enter your email"
+                  class="input input-bordered w-full text-font-color"
+                />
               </div>
               <div>
-                <h3 class="text-xl font-bold mb-4">Your Name</h3>
-                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full text-font-color" />
+                <h3 class="text-xl font-bold mb-4">Subject</h3>
+                <input
+                  type="text"
+                  placeholder="Enter your subject"
+                  class="input input-bordered w-full text-font-color"
+                />
               </div>
               <div>
-                <h3 class="text-xl font-bold mb-4">Your Name</h3>
-                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full text-font-color" />
+                <h3 class="text-xl font-bold mb-4">Phone Number</h3>
+                <input
+                  type="text"
+                  placeholder="Enter your phone number"
+                  class="input input-bordered w-full text-font-color"
+                />
               </div>
             </div>
+            <div class="mx-5 lg:mx-0">
+              <h3 class="text-xl font-bold my-4">Message</h3>
+              <textarea
+                class="textarea textarea-bordered h-[250px] lg:h-[450px] w-full"
+                placeholder="Write your message"
+              ></textarea>
+              <button
+                class="btn bg-primary-color rounded-xl text-white w-full mt-8"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="text-center w-full bg-[#13131808] p-10 mt-12 rounded-xl">
+          <p class="text-2xl font-extrabold mb-6">Social Media</p>
+          <div>
+            <i class="text-2xl fa-brands fa-twitter"></i>
+            <i class="text-2xl fa-brands fa-facebook-f ml-8"></i>
+            <i class="text-2xl fa-brands fa-instagram ml-8"></i>
+            <i class="text-2xl fa-brands fa-github ml-8"></i>
           </div>
         </div>
       </section>
     </main>
+    <footer class="bg-[#131318]">
+      <div class="mx-5 lg:mx-32 py-28">
+        <div class="text-white grid grid-cols-2 lg:grid-cols-4 gap-20 lg:gap-40">
+          <!-- Get In Touch -->
+          <div class="col-span-2 lg:col-span-1 text-center lg:text-left">
+            <h3 class="text-3xl font-extrabold">Get In Touch</h3>
+            <p class="text-[#FFFFFFAA] mb-6 mt-2">
+              Get in touch with our newsletter. Fill up the form, we will remind
+              you every half an hour :p
+            </p>
+            <p>
+              <i class="text-primary-color mr-3 fa-solid fa-envelope"></i
+              >hockeys@support.com
+            </p>
+            <p>
+              <i class="text-primary-color mr-3 fa-solid fa-phone"></i>(+62)
+              123-321-543
+            </p>
+          </div>
+          <!-- Company -->
+          <div class="col-span-1 lg:col-span-1 text-center lg:text-left">
+            <h6 class="text-2xl font-bold mb-6">Company</h6>
+            <div class="flex flex-col">
+              <a class="link link-hover text-font-secondary">About us</a>
+              <a class="link link-hover text-font-secondary">Leadership</a>
+              <a class="link link-hover text-font-secondary">Careers</a>
+              <a class="link link-hover text-font-secondary">New & Article</a>
+              <a class="link link-hover text-font-secondary">Legal Notice</a>
+            </div>
+          </div>
+          <!-- Support -->
+          <div class="col-span-1 lg:col-span-1 text-center lg:text-left">
+            <h6 class="text-2xl font-bold mb-6">Support</h6>
+            <div class="flex flex-col">
+              <a class="link link-hover text-font-secondary">Help Center</a>
+              <a class="link link-hover text-font-secondary">FAQ</a>
+              <a class="link link-hover text-font-secondary">Ticket Support</a>
+              <a class="link link-hover text-font-secondary">Contact Us</a>
+            </div>
+          </div>
+          <!-- Services -->
+          <div class="col-span-2 lg:col-span-1 text-center lg:text-left">
+            <h6 class="text-2xl font-bold mb-6">Services</h6>
+            <div class="flex flex-col">
+              <a class="link link-hover text-font-secondary">Academy</a>
+              <a class="link link-hover text-font-secondary">Group Lesson</a>
+              <a class="link link-hover text-font-secondary">Private Lesson</a>
+              <a class="link link-hover text-font-secondary">Hockeys for Kids</a> 
+              <a class="link link-hover text-font-secondary">Hockeys for Adults</a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
