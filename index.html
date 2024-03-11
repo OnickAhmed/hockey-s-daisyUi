@@ -27,6 +27,8 @@
           extend: {
             colors: {
               "primary-color": "#FF4240",
+              "color-gray": "#13131833",
+              "font-gray": "#13131880",
             },
           },
         },
@@ -39,7 +41,7 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="lg:mx-32 my-12">
+    <header class="mx-5 lg:mx-32 my-12">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -124,7 +126,7 @@
     </header>
     <main>
       <!-- Banner -->
-      <section class="banner lg:mx-32 my-12">
+      <section class="mx-5 lg:mx-32 my-12">
         <div class="relative">
           <div class="carousel w-full h-[550px]">
             <div id="slide1" class="carousel-item relative w-full">
@@ -174,10 +176,10 @@
         </div>
       </section>
       <!-- Professional -->
-      <section class="lg:mx-32 my-24 text-center">
+      <section class="mx-5 lg:mx-32 my-24 text-center">
         <div class="border-y-2 border-dashed border-[#13131833] py-8">
           <h3 class="text-4xl font-extrabold">Professional Hockeys Club</h3>
-          <p class="lg:w-[750px] mx-auto mt-6">
+          <p class="lg:w-[750px] mx-auto mt-6 text-font-gray">
             We have all those facilities available a club needs to have. We have
             training ground to practice on with experienced coach and senior
             players to guide with all those training facilities we can imagine.
@@ -243,17 +245,18 @@
         </div>
       </section>
       <!-- Program -->
-      <section class="lg:mx-32 my-24">
+      <section class="mx-5 lg:mx-32 my-24">
         <div
           class="border-y-2 border-dashed border-[#13131833] py-8 text-center"
         >
           <h3 class="text-4xl font-extrabold">Program Sections</h3>
-          <p class="lg:w-[750px] mx-auto mt-6">
+          <p class="lg:w-[750px] mx-auto mt-6 text-font-gray">
             We have variety of programs running all over the year based on the
             age group. Although we train them depending on their requirements
             individually.
           </p>
         </div>
+        <!-- Card Container -->
         <div class="mt-12 grid grid-col-1 lg:grid-cols-2 gap-6">
           <!-- card-1 -->
           <div
@@ -320,12 +323,381 @@
       <!-- New Products -->
       <section class="lg:mx-32 my-24">
         <div
-          class="border-y-2 border-dashed border-[#13131833] py-8 text-center"
+          class="border-y-2 border-dashed border-color-gray py-8 text-center"
         >
           <h3 class="text-4xl font-extrabold">Our New Products</h3>
-          <p class="lg:w-[750px] mx-auto mt-6">
-            Check out our new products here. We offer the lowest price in the market. Get hold of our new sports wear and accessories.
+          <p class="lg:w-[750px] mx-auto mt-6 text-font-gray">
+            Check out our new products here. We offer the lowest price in the
+            market. Get hold of our new sports wear and accessories.
           </p>
+        </div>
+        <div class="my-12 gap-6 grid grid-cols-1 lg:grid-cols-2">
+          <!-- product 1 -->
+          <div
+            class="flex flex-col lg:flex-row gap-5 p-6 rounded-xl border-solid border border-color-gray"
+          >
+            <div>
+              <img
+                class="w-full"
+                src="assets/Images/5.png"
+                alt="Winter Jacket"
+              />
+            </div>
+            <div>
+              <p class="text-font-gray mt-3">
+                <span><i class="fa-solid fa-star text-amber-400"></i> 5.0</span>
+                <span class="ml-4"><i class="fa-regular fa-eye"></i> 20</span>
+                <span class="ml-4"
+                  ><i class="fa-regular fa-heart"></i> 200</span
+                >
+              </p>
+              <h3 class="my-2 lg:my-3">Winter Jacket</h3>
+              <p class="text-font-gray my-0 lg:my-3">
+                Grab our latest winter hockey jacket
+              </p>
+              <div class="flex gap-5 items-center">
+                <button class="btn btn-ghost text-red-600 p-0">
+                  Price - $22.00
+                </button>
+                <p class="text-font-gray">
+                  <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- product 2 -->
+          <div
+            class="flex flex-col lg:flex-row gap-5 p-6 rounded-xl border-solid border border-color-gray"
+          >
+            <div>
+              <img
+                class="w-full"
+                src="assets/Images/6.png"
+                alt="Winter Jacket"
+              />
+            </div>
+            <div>
+              <p class="text-font-gray mt-3">
+                <span><i class="fa-solid fa-star text-amber-400"></i> 5.0</span>
+                <span class="ml-4"><i class="fa-regular fa-eye"></i> 20</span>
+                <span class="ml-4"
+                  ><i class="fa-regular fa-heart"></i> 200</span
+                >
+              </p>
+              <h3 class="my-2 lg:my-3">Winter Jacket</h3>
+              <p class="text-font-gray my-0 lg:my-3">
+                Grab our latest winter hockey jacket
+              </p>
+              <div class="flex gap-5 items-center">
+                <button class="btn btn-ghost text-red-600 p-0">
+                  Price - $22.00
+                </button>
+                <p class="text-font-gray">
+                  <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- product 3 -->
+          <div
+            class="flex flex-col lg:flex-row gap-5 p-6 rounded-xl border-solid border border-color-gray"
+          >
+            <div>
+              <img
+                class="w-full"
+                src="assets/Images/7.png"
+                alt="Winter Jacket"
+              />
+            </div>
+            <div>
+              <p class="text-font-gray mt-3">
+                <span><i class="fa-solid fa-star text-amber-400"></i> 5.0</span>
+                <span class="ml-4"><i class="fa-regular fa-eye"></i> 20</span>
+                <span class="ml-4"
+                  ><i class="fa-regular fa-heart"></i> 200</span
+                >
+              </p>
+              <h3 class="my-2 lg:my-3">Winter Jacket</h3>
+              <p class="text-font-gray my-0 lg:my-3">
+                Grab our latest winter hockey jacket
+              </p>
+              <div class="flex gap-5 items-center">
+                <button class="btn btn-ghost text-red-600 p-0">
+                  Price - $22.00
+                </button>
+                <p class="text-font-gray">
+                  <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- product 4 -->
+          <div
+            class="flex flex-col lg:flex-row gap-5 p-6 rounded-xl border-solid border border-color-gray"
+          >
+            <div>
+              <img
+                class="w-full"
+                src="assets/Images/8.png"
+                alt="Winter Jacket"
+              />
+            </div>
+            <div>
+              <p class="text-font-gray mt-3">
+                <span><i class="fa-solid fa-star text-amber-400"></i> 5.0</span>
+                <span class="ml-4"><i class="fa-regular fa-eye"></i> 20</span>
+                <span class="ml-4"
+                  ><i class="fa-regular fa-heart"></i> 200</span
+                >
+              </p>
+              <h3 class="my-2 lg:my-3">Winter Jacket</h3>
+              <p class="text-font-gray my-0 lg:my-3">
+                Grab our latest winter hockey jacket
+              </p>
+              <div class="flex gap-5 items-center">
+                <button class="btn btn-ghost text-red-600 p-0">
+                  Price - $22.00
+                </button>
+                <p class="text-font-gray">
+                  <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- product 5 -->
+          <div
+            class="flex flex-col lg:flex-row gap-5 p-6 rounded-xl border-solid border border-color-gray"
+          >
+            <div>
+              <img
+                class="w-full"
+                src="assets/Images/9.png"
+                alt="Winter Jacket"
+              />
+            </div>
+            <div>
+              <p class="text-font-gray mt-3">
+                <span><i class="fa-solid fa-star text-amber-400"></i> 5.0</span>
+                <span class="ml-4"><i class="fa-regular fa-eye"></i> 20</span>
+                <span class="ml-4"
+                  ><i class="fa-regular fa-heart"></i> 200</span
+                >
+              </p>
+              <h3 class="my-2 lg:my-3">Winter Jacket</h3>
+              <p class="text-font-gray my-0 lg:my-3">
+                Grab our latest winter hockey jacket
+              </p>
+              <div class="flex gap-5 items-center">
+                <button class="btn btn-ghost text-red-600 p-0">
+                  Price - $22.00
+                </button>
+                <p class="text-font-gray">
+                  <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- product 6 -->
+          <div
+            class="flex flex-col lg:flex-row gap-5 p-6 rounded-xl border-solid border border-color-gray"
+          >
+            <div>
+              <img
+                class="w-full"
+                src="assets/Images/10.png"
+                alt="Winter Jacket"
+              />
+            </div>
+            <div>
+              <p class="text-font-gray mt-3">
+                <span><i class="fa-solid fa-star text-amber-400"></i> 5.0</span>
+                <span class="ml-4"><i class="fa-regular fa-eye"></i> 20</span>
+                <span class="ml-4"
+                  ><i class="fa-regular fa-heart"></i> 200</span
+                >
+              </p>
+              <h3 class="my-2 lg:my-3">Winter Jacket</h3>
+              <p class="text-font-gray my-0 lg:my-3">
+                Grab our latest winter hockey jacket
+              </p>
+              <div class="flex gap-5 items-center">
+                <button class="btn btn-ghost text-red-600 p-0">
+                  Price - $22.00
+                </button>
+                <p class="text-font-gray">
+                  <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Questions -->
+      <section class="lg:mx-32 my-24">
+        <div
+          class="border-y-2 border-dashed border-color-gray py-8 text-center"
+        >
+          <h3 class="text-4xl font-extrabold">Clients Questions</h3>
+          <p class="lg:w-[750px] mx-auto mt-6 text-font-gray">
+            Here are some common clients questions about us and our products.
+          </p>
+        </div>
+        <div
+          class="flex flex-col lg:flex-row gap-10 p-8 border border-color-gray rounded-xl my-12"
+        >
+          <div class="lg:w-[650px]">
+            <img src="assets/Images/11.png" alt="" />
+          </div>
+          <!-- Question Container -->
+          <div class="w-full">
+            <div class="join join-vertical w-full">
+              <!-- question - 1 -->
+              <div
+                class="collapse collapse-plus join-item border-y border-base-300"
+              >
+                <input type="radio" name="my-accordion-4" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  Our Equipment
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    We have variety of equipments. Anyone can choose those
+                    depending on their programs levels
+                  </p>
+                </div>
+              </div>
+              <!-- question - 2 -->
+              <div
+                class="collapse collapse-plus join-item border-y border-base-300"
+              >
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">
+                  Hockey Training
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    We have vast categories of training. We train people
+                    individually so than no one miss a bit.
+                  </p>
+                </div>
+              </div>
+              <!-- question - 3 -->
+              <div
+                class="collapse collapse-plus join-item border-y border-base-300"
+              >
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">
+                  Private Lesson
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    We have Private lesson as well. Contact us through our
+                    website to get access to them
+                  </p>
+                </div>
+              </div>
+              <!-- question - 4 -->
+              <div
+                class="collapse collapse-plus join-item border-y border-base-300"
+              >
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">
+                  Ski Touring
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    This is our special training, runs few times a year. We
+                    teach skiing to those who wants to play ice-hockey or may be
+                    other staffs.
+                  </p>
+                </div>
+              </div>
+              <!-- question - 5 -->
+              <div
+                class="collapse collapse-plus join-item border-y border-base-300"
+              >
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">Booking</div>
+                <div class="collapse-content">
+                  <p>
+                    You can book through any of them by contacting via website
+                    filling up a form or come and have a visit to our office or
+                    even you call our official number, +8821-420420.
+                  </p>
+                </div>
+              </div>
+              <!-- question - 6 -->
+              <div
+                class="collapse collapse-plus join-item border-y border-base-300"
+              >
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">Pricing</div>
+                <div class="collapse-content">
+                  <p>
+                    We have offers running to various courses. Starting from 500
+                    pounds a month to 2000 pounds a month only. We are offering
+                    the cheapest rate on the market. And we are taking only 100
+                    pounds a day for the equipments we provide.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Get In Touch -->
+      <section class="lg:mx-32 my-24">
+        <div
+          class="border-y-2 border-dashed border-color-gray py-8 text-center mb-12"
+        >
+          <h3 class="text-4xl font-extrabold">Get In Touch</h3>
+          <p class="lg:w-[750px] mx-auto mt-6 text-font-gray">
+            Get in touch with our hourly newsletter. We will send you texts and
+            email of our new offers and promotions. So than you get updated all
+            the time.
+          </p>
+        </div>
+        <div class="flex flex-col lg:flex-row gap-6">
+          <div class="lg:w-[750px] rounded-xl border border-color-gray p-8">
+            <!-- Phone -->
+            <div class="p-8 bg-[#BCED6D33] rounded-xl mb-6">
+              <img class="mb-7" src="assets/Images/Group 1.png" alt="Phone" />
+              <p class="text-font-gray">Phone Number :</p>
+              <h3 class="font-extrabold text-lg">(+62) 123-321-543</h3>
+            </div>
+            <!-- Email -->
+            <div class="p-8 bg-[#FDDD5F33] rounded-xl mb-6">
+              <img class="mb-7" src="assets/Images/Group 1.png" alt="Phone" />
+              <p class="text-font-gray">Emails :</p>
+              <h3 class="font-extrabold text-lg">hockeys@support.com</h3>
+            </div>
+            <!-- Location -->
+            <div class="p-8 bg-[#629CF333] rounded-xl mb-6">
+              <img class="mb-7" src="assets/Images/Group 1.png" alt="Phone" />
+              <p class="text-font-gray">Location :</p>
+              <h3 class="font-extrabold text-lg">420 Chowhatta, Sylhet</h3>
+            </div>
+          </div>
+          <div class="w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-7">
+              <div class="w-full">
+                <h3 class="text-xl font-bold mb-4">Your Name</h3>
+                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full text-font-color" />
+              </div>
+              <div class="w-full">
+                <h3 class="text-xl font-bold mb-4">Your Name</h3>
+                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full text-font-color" />
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-4">Your Name</h3>
+                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full text-font-color" />
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-4">Your Name</h3>
+                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full text-font-color" />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
